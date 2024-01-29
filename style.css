@@ -12,14 +12,19 @@
     background: url('background\ purple.jpeg');
     background-size: cover;
     background-position: center;
-    position: absolute;
+    
+}
+.side2 {
+    min-height: 100vh;
+    background: url('light\ blue\ background.webp');
+    background-size: cover;
+    background-position: center;
 }
 .container {
     color: #fff;
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 200px;
     font-size: 20px;
 }
 .header {
@@ -41,6 +46,7 @@ img {
 
 h1 {
     font-size: 75px;
+    margin-top: 200px;
 }
 .navbar a {
     position: relative;
